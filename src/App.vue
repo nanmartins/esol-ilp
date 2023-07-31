@@ -1,18 +1,21 @@
 <template>
   <nav>
     <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/exercises">Exercises</router-link>
   </nav>
   <router-view/>
 </template>
 
 <style>
+html {
+  background: #2b2c2d;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  /* color: #2c3e50; */
 }
 
 nav {
@@ -21,10 +24,15 @@ nav {
 
 nav a {
   font-weight: bold;
-  color: #2c3e50;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  color: #b9b9ba;
+  border: 1px solid #b9b9ba;
 }
 
 nav a.router-link-exact-active {
-  color: #42b983;
+  border: 1px solid #00ff84;
+  color: #00ff84;
 }
 </style>
