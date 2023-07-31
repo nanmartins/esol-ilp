@@ -9,6 +9,7 @@
 <style>
 html {
   background: #2b2c2d;
+  box-sizing: border-box;
 }
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -24,15 +25,22 @@ nav {
 
 nav a {
   font-weight: bold;
+  font-size: 18px;
   text-decoration: none;
   padding: 8px 16px;
   border-radius: 5px;
   color: #b9b9ba;
-  border: 1px solid #b9b9ba;
+  border: 2px solid #b9b9ba;
 }
 
 nav a.router-link-exact-active {
-  border: 1px solid #00ff84;
+  border: 2px solid #00ff84;
   color: #00ff84;
 }
+
+/* /////////////////////////////////// */
+
+h1 {
+    color: #00ff84;
+  }
 </style>
