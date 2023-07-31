@@ -2,7 +2,7 @@
   <div class="exercise-container">
     <h3>Resume 01</h3>
     <h2><a href="https://www.bbc.co.uk/news/uk-66362004" target="_blank">UK weather: When will it stop raining and the summer improve?</a></h2>
-    <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/13BD1/production/_130594808_4f1d5c5dbe6237445b026ac8c7fa2e3095089682.jpg.webp" alt="">
+    <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/13BD1/production/_130594808_4f1d5c5dbe6237445b026ac8c7fa2e3095089682.jpg.webp">
     <a href="https://www.bbc.co.uk/news/uk-66362004" target="_blank"></a>
 
     <hr>
@@ -11,7 +11,7 @@
       <h3>My thoughts:</h3>
 
       <p>The UK is experiencing unsettled weather with cooler temperatues and widespread rain, while southern Europe faces damgerous heatwaves and wildfires.</p>
-      <p>The forecast indicates that the unsettled weather will continue through August, with drier and warmer periods possibility later in the month.</p>
+      <p>The forecast indicates that the unsettled weather will continue through August, with drier and warmer periods possible later in the month.</p>
       <p>This wetter weather are impacting UK farmers, affecting the quality and causing aditional costs to produce the grains.</p>
       <p>The weather this summer is opposite to extreme hot summer from last year</p>
     </div>
