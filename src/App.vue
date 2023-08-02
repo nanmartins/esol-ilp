@@ -1,6 +1,6 @@
 <template>
   <nav>
-    <router-link to="/">Home</router-link> |
+    <router-link to="/">Home</router-link>
     <router-link to="/exercises">Exercises</router-link>
   </nav>
   <router-view/>
@@ -9,6 +9,7 @@
 <style>
 html {
   background: #2b2c2d;
+  background: #1e1e1e;
   box-sizing: border-box;
 }
 #app {
@@ -27,6 +28,7 @@ nav a {
   font-size: 18px;
   text-decoration: none;
   padding: 8px 16px;
+  margin: 0 5px;
   border-radius: 5px;
   color: #b9b9ba;
   border: 1px solid #b9b9ba;
@@ -37,7 +39,6 @@ nav a.router-link-exact-active {
   color: #00ff84;
 }
 
-/* /////////////////////////////////// */
 
 h1 {
     color: #00ff84;

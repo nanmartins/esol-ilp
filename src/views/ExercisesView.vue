@@ -26,7 +26,7 @@ export default {
     text-decoration: none;
     font-size: 14px;
     color: #b9b9ba;
-    border: 2px solid #b9b9ba;
+    border: 1px solid #b9b9ba;
     padding: 7px 12px;
     border-radius: 5px;
     margin: 5px;

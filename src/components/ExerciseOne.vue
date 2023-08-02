@@ -29,13 +29,13 @@ export default {
     margin: 40px 10px;
     padding: 20px 10px;
     border-radius: 5px;
-    border: 2px solid #00ff84;
+    border: 1px solid #00ff84;
     color: #00ff84;
     display: grid;
     place-content: center;
   }
   img {
-    margin: 10px auto;
+    margin: auto;
     border-radius: 5px;
     width: 80vw;
   }
@@ -48,16 +48,19 @@ export default {
   }
 
   hr {
-    width: 100%;
-    margin-top: 20px;
+    display: flex;
+    justify-self: center;
+    width: 95%;
+    margin: 40px 0 40px 0;
+    background: #000000;
   }
 
   .resume-container {
-    background: #1e1e1e;
-    padding: 10px 10px;
+    background: #2b2c2d;
+    padding: 10px 15px;
     border-radius: 5px;
-    margin-top: 30px;
-    border: 2px solid #b9b9ba;
+    /* margin-top: 30px; */
+    border: 1px solid #b9b9ba;
   }
   .resume-container h3 {
     text-decoration-line: underline;
