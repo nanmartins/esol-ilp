@@ -16,7 +16,6 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  /* color: #2c3e50; */
 }
 
 nav {
@@ -30,7 +29,7 @@ nav a {
   padding: 8px 16px;
   border-radius: 5px;
   color: #b9b9ba;
-  border: 2px solid #b9b9ba;
+  border: 1px solid #b9b9ba;
 }
 
 nav a.router-link-exact-active {

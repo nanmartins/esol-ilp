@@ -31,7 +31,7 @@ export default {
     border-radius: 5px;
     margin: 5px;
   }
-  .exercise-link.router-link-exact-active {
+  .exercise-link.router-link-active {
     border: 2px solid #00ff84;
     color: #00ff84;
   }

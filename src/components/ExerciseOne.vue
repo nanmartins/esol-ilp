@@ -10,10 +10,10 @@
     <div class="resume-container">
       <h3>My thoughts:</h3>
 
-      <p>The UK is experiencing unsettled weather with cooler temperatues and widespread rain, while southern Europe faces damgerous heatwaves and wildfires.</p>
+      <p>The UK is experiencing unsettled weather with cooler temperatues and widespread rain, while southern Europe faces dangerous heatwaves and wildfires.</p>
       <p>The forecast indicates that the unsettled weather will continue through August, with drier and warmer periods possible later in the month.</p>
       <p>This wetter weather are impacting UK farmers, affecting the quality and causing aditional costs to produce the grains.</p>
-      <p>The weather this summer is opposite to extreme hot summer from last year</p>
+      <p>The weather this summer is opposite to extreme hot summer from last year.</p>
     </div>
   </div>
 </template>
@@ -53,8 +53,8 @@ export default {
   }
 
   .resume-container {
-    background: #4b4b4b;
-    padding: 0 10px;
+    background: #1e1e1e;
+    padding: 10px 10px;
     border-radius: 5px;
     margin-top: 30px;
     border: 2px solid #b9b9ba;
