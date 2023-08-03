@@ -8,7 +8,6 @@
 
 <style>
 html {
-  background: #2b2c2d;
   background: #1e1e1e;
   box-sizing: border-box;
 }

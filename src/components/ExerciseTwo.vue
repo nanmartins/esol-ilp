@@ -1,9 +1,9 @@
 <template>
   <div class="exercise-container">
     <h3>Resume 02</h3>
-    <h2><a href="https://www.bbc.co.uk/news/uk-66362004" target="_blank">Remote working in NI has more than halved since pandemic peak</a></h2>
+    <h2>Remote working in NI has more than halved since pandemic peak</h2>
+    <a href="https://www.bbc.co.uk/news/uk-northern-ireland-66363792" target="_blank">View source</a>
     <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/E4BF/production/_130595585_gettyimages-1327779046.jpg.webp">
-    <a href="https://www.bbc.co.uk/news/uk-northern-ireland-66363792" target="_blank"></a>
 
     <hr>
 
