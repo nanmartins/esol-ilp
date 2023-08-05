@@ -27,6 +27,7 @@ export default {
     border-radius: 5px;
     padding: 20px 10px;
     margin: 0 10px;
+    background: #262728;
   }
 
   h2 {
