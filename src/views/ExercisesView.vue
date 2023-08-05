@@ -7,7 +7,12 @@
       <router-link :to="{ name: 'exercise-two'}" class="exercise-link">Resume 02</router-link>
     </div>
 
-    <router-view></router-view>
+    <router-view v-slot="{ Component }">
+      <transition mode="out-in">
+        <component :is="Component" />
+      </transition>
+    </router-view>
+
   </div>
 </template>
 
@@ -35,4 +40,24 @@ export default {
     border: 2px solid #00ff84;
     color: #00ff84;
   }
+
+  .v-enter {
+    opacity: 0;
+    transform: translate3d(-100%, 0, 0);
+  }
+  .v-leave-to {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0);
+  }
+  .v-enter-active {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+    transition: all 0.4s;
+  }
+  .v-leave-active {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0);
+    transition: all 0.4s;
+  }
+
 </style>

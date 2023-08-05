@@ -3,7 +3,9 @@
     <router-link to="/">Home</router-link>
     <router-link to="/exercises">Exercises</router-link>
   </nav>
-  <router-view/>
+
+  <router-view></router-view>
+
 </template>
 
 <style>
@@ -40,6 +42,7 @@ nav a.router-link-exact-active {
 
 
 h1 {
-    color: #00ff84;
-  }
+  color: #00ff84;
+}
+
 </style>
