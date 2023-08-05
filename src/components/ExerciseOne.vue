@@ -83,4 +83,7 @@ export default {
   .exercise-container h3 {
     text-decoration-line: underline;
   }
+  .resume-container p {
+    color: #dcdada;
+  }
 </style>
