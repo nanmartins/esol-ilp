@@ -28,7 +28,7 @@ export default {
 <style>
   .exercise-container {
     margin: 40px 10px;
-    padding: 20px 10px;
+    padding: 20px 15px;
     border-radius: 5px;
     background: #262728;
     border: 1px solid #00ff84;
@@ -67,9 +67,9 @@ export default {
   hr {
     display: flex;
     justify-self: center;
-    width: 95%;
+    width: 80vw;
     margin: 40px 0 40px 0;
-    background: #000000;
+    border: 1px solid #00ff84a7;
   }
 
   .resume-container {
