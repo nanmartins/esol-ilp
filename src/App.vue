@@ -9,7 +9,7 @@
 <style>
 html {
   background: #1e1e1e;
-  box-sizing: border-box;
+  box-sizing: inherit;
 }
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;

@@ -36,6 +36,9 @@ export default {
     display: grid;
     place-content: center;
   }
+  .exercise-container h2 {
+    padding: 0 15px;
+  }
   img {
     margin: auto;
     border-radius: 5px;
@@ -76,7 +79,7 @@ export default {
     background: #313234;
     padding: 10px 15px;
     border-radius: 5px;
-    /* margin-top: 30px; */
+    width: 78vw;
     border: 1px solid #b9b9ba;
   }
   .resume-container h3,
