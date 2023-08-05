@@ -50,7 +50,7 @@ export default {
     border-radius: 5px;
     padding: 10px 20px;
     margin-bottom: 40px;
-    width: 180px;
+    width: 120px;
     font-display: Arial;
     font-size: 15px;
     text-transform: uppercase;
