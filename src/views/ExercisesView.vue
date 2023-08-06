@@ -41,18 +41,31 @@ export default {
     color: #00ff84;
   }
 
-  .v-enter {
+
+  /* Need to improve the transition effect */
+  /* check the pink bg as reference */
+  .v-enter-from {
     opacity: 0;
     transform: translate3d(-100%, 0, 0);
+    /* background: blue; */
   }
-  .v-leave-to {
-    opacity: 0;
-    transform: translate3d(100%, 0, 0);
+
+  .v-enter-to {
+    /* background: pink; */
   }
   .v-enter-active {
     opacity: 1;
     transform: translate3d(0, 0, 0);
     transition: all 0.4s;
+    /* background: green; */
+  }
+  /* .v-enter {
+    opacity: 0;
+    transform: translate3d(-100%, 0, 0);
+  } */
+  .v-leave-to {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0);
   }
   .v-leave-active {
     opacity: 0;

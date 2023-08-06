@@ -35,6 +35,8 @@ export default {
     color: #00ff84;
     display: grid;
     place-content: center;
+    justify-items: center;
+
   }
   .exercise-container h2 {
     padding: 0 15px;
