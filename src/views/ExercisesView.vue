@@ -57,7 +57,7 @@ export default {
   /* check the pink bg as reference */
   .v-enter-from {
     opacity: 0;
-    transform: translate3d(-100%, 0, 0);
+    transform: translate3d(0, -100px, 0);
     /* background: blue; */
   }
 
@@ -76,11 +76,11 @@ export default {
   } */
   .v-leave-to {
     opacity: 0;
-    transform: translate3d(100%, 0, 0);
+    transform: translate3d(0, 100px, 0);
   }
   .v-leave-active {
-    opacity: 0;
-    transform: translate3d(100%, 0, 0);
+    /* opacity: 0;
+    transform: translate3d(0, 100%, 0); */
     transition: all 0.4s;
   }
 

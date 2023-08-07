@@ -11,7 +11,7 @@
       <p>I recommend that you read the material first to have your own understanding of the subject.</p>
       <br>
       <p>I hope you enjoy it.</p>
-      <p>Happy reading!.</p>
+      <p>Happy reading!</p>
     </div>
   <!-- </div> -->
 </template>

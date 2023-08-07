@@ -12,6 +12,7 @@
 html {
   background: #1e1e1e;
   box-sizing: inherit;
+  overflow-x: hidden;
 }
 body {
   background: #1e1e1e;
@@ -30,7 +31,6 @@ nav {
 }
 
 nav a {
-  font-weight: bold;
   font-size: 18px;
   text-transform: uppercase;
   text-decoration: none;
