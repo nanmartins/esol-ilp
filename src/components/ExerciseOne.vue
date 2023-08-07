@@ -10,7 +10,7 @@
     <div class="resume-container">
       <h3>My thoughts:</h3>
 
-      <p class="first-letter">The UK is experiencing unsettled weather with cooler temperatues and widespread rain, while southern Europe faces dangerous heatwaves and wildfires.</p>
+      <p>The UK is experiencing unsettled weather with cooler temperatues and widespread rain, while southern Europe faces dangerous heatwaves and wildfires.</p>
       <p>The forecast indicates that the unsettled weather will continue through August, with drier and warmer periods possible later in the month.</p>
       <p>This wetter weather are impacting UK farmers, affecting the quality and causing aditional costs to produce the grains.</p>
       <p>The weather this summer is opposite to extreme hot summer from last year.</p>
@@ -27,16 +27,15 @@ export default {
 
 <style>
   .exercise-container {
-    margin: 40px 10px;
-    padding: 20px 15px;
-    border-radius: 5px;
-    background: #262728;
-    border: 1px solid #00ff84;
+    /* margin: 40px 10px;
+    padding: 20px 15px; */
+    /* border-radius: 5px; */
+    /* background: #262728; */
+    /* border: 1px solid #00ff84; */
     color: #00ff84;
     display: grid;
     place-content: center;
     justify-items: center;
-
   }
   .exercise-container h2 {
     padding: 0 15px;
@@ -94,7 +93,7 @@ export default {
     font-size: 20px;
   }
 
-  .first-letter::first-letter {
+  /* .first-letter::first-letter {
     initial-letter: 2;
     font-weight: bolder;
     color: #00ff84;
@@ -102,5 +101,5 @@ export default {
     padding: 5px;
     background: #626262;
     border: 1px solid #b9b9ba;
-  }
+  } */
 </style>

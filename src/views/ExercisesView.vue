@@ -7,11 +7,13 @@
       <router-link :to="{ name: 'exercise-two'}" class="exercise-link">Resume 02</router-link>
     </div>
 
-    <router-view v-slot="{ Component }">
-      <transition mode="out-in">
-        <component :is="Component" />
-      </transition>
-    </router-view>
+    <div class="component-border">
+      <router-view v-slot="{ Component }">
+        <transition mode="out-in">
+          <component :is="Component"></component>
+        </transition>
+      </router-view>
+    </div>
 
   </div>
 </template>
@@ -40,6 +42,14 @@ export default {
   .exercise-link.router-link-active {
     border: 2px solid #00ff84;
     color: #00ff84;
+  }
+  .component-border {
+    border: 2px solid #00ff84;
+    border-radius: 5px;
+    background: #262728;
+    min-height: 500px;
+    margin: 40px 10px;
+    padding: 20px 15px;
   }
 
 

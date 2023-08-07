@@ -1,6 +1,6 @@
 <template>
-  <div class="home">
-    <!-- <h1>Home</h1> -->
+  <!-- <div class="home"> -->
+    <h1>Home</h1>
 
     <div class="home-container">
       <h2>Hello, welcome!</h2>
@@ -13,7 +13,7 @@
       <p>I hope you enjoy it.</p>
       <p>Happy reading!.</p>
     </div>
-  </div>
+  <!-- </div> -->
 </template>
 
 <script>
@@ -27,7 +27,7 @@ export default {
     border: 2px solid #00ff84;
     border-radius: 5px;
     padding: 20px 10px;
-    margin: 0 10px;
+    margin: 30px 10px 20px 10px;
     background: #262728;
   }
 
