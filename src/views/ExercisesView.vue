@@ -50,9 +50,9 @@ export default {
     /* background: blue; */
   }
 
-  .v-enter-to {
-    /* background: pink; */
-  }
+  /* .v-enter-to {
+    background: pink;
+  } */
   .v-enter-active {
     opacity: 1;
     transform: translate3d(0, 0, 0);

@@ -13,11 +13,16 @@ html {
   background: #1e1e1e;
   box-sizing: inherit;
 }
+body {
+  background: #1e1e1e;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
+  background: #1e1e1e;
+
 }
 
 nav {
@@ -26,7 +31,7 @@ nav {
 
 nav a {
   font-weight: bold;
-  font-size: 18px;
+  font-size: 22px;
   text-decoration: none;
   padding: 8px 16px;
   margin: 0 5px;
