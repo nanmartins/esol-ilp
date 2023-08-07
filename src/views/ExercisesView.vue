@@ -29,6 +29,7 @@ export default {
 
   .exercise-link {
     text-decoration: none;
+    text-transform: uppercase;
     font-size: 14px;
     color: #b9b9ba;
     border: 1px solid #b9b9ba;

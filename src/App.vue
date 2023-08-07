@@ -26,12 +26,13 @@ body {
 }
 
 nav {
-  padding: 30px;
+  padding: 40px 30px;
 }
 
 nav a {
   font-weight: bold;
-  font-size: 22px;
+  font-size: 18px;
+  text-transform: uppercase;
   text-decoration: none;
   padding: 8px 16px;
   margin: 0 5px;

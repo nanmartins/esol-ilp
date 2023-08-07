@@ -40,6 +40,7 @@ export default {
   }
   .exercise-container h2 {
     padding: 0 15px;
+    font-size: 28px;
   }
   img {
     margin: auto;
@@ -90,6 +91,7 @@ export default {
   }
   .resume-container p {
     color: #dcdada;
+    font-size: 20px;
   }
 
   .first-letter::first-letter {

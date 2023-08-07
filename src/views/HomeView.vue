@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <h1>Home</h1>
+    <!-- <h1>Home</h1> -->
 
     <div class="home-container">
       <h2>Hello, welcome!</h2>
@@ -8,6 +8,7 @@
       <br>
       <p>The exercises consist of creating brief summaries about news articles.</p>
       <p>On the "Exercises" page, you will find my summaries and also links to the materials used.</p>
+      <p>I recommend that you read the material first to have your own understanding of the subject.</p>
       <br>
       <p>I hope you enjoy it.</p>
       <p>Happy reading!.</p>
@@ -32,11 +33,12 @@ export default {
 
   h2 {
     color: #00ff84;
+    font-size: 28px;
     text-decoration-line: underline;
   }
 
   p {
     color: #dcdada;
-    font-size: 18px;
+    font-size: 20px;
   }
 </style>
